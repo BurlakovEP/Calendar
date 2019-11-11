@@ -1,0 +1,23 @@
+.grid {
+  background-color: #acb18f;
+
+  &__cell {
+    border: 1px solid #000;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+
+    &_head {
+      border: 0;
+      font-weight: 700;
+    }
+
+    &_current {
+      background-color: #a94328;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    font-weight: 700;
+    color: #151515;
+  }
+
+  &__control {
+    cursor: pointer;
+    border: 0;
+    background: none;
+    outline: none;
+    padding: 0;
+
+    &:hover {
+      color: #3f3f3f;
+    }
+  }
+}
